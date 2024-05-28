@@ -1,0 +1,16 @@
+{
+	"type": "module",
+	"scripts": {
+		"start": "tsc && node dist/index.js"
+	},
+	"dependencies": {
+		"@tanstack/react-query": "^4.36.1",
+		"@wardenprotocol/wardenjs": "^0.0.6",
+		"long": "^5.2.3",
+		"react-dom": "^18.3.1"
+	},
+	"devDependencies": {
+		"@types/node": "^20.12.12",
+		"typescript": "^5.4.5"
+	}
+}
